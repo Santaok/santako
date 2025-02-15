@@ -13,7 +13,7 @@ input{
     
 }
 .card__url{
-    border-radius:  0 6px 6px 0;
+    border-radius:  0px 6px 6px 0px;
 }
 .card__title{
     border-radius:  6px;
@@ -24,7 +24,7 @@ input{
     display: flex;
     text-align: center;
 }
-::placeholder{
+input::placeholder{
     color:rgb(255, 255, 255);
     
 }
@@ -56,7 +56,7 @@ button{
     cursor: pointer;
     border: 1px solid rgb(209, 207, 207);
     transition: all 0.1s ease-in;
-    backdrop-filter: blur(10px);
+  
 }
 
 
@@ -76,7 +76,7 @@ button{
    gap: 2vw;
    top: 28vw;
    left: 10vw;
-   z-index: 2;
+   z-index: 3;
    display: flex;
    flex-direction: column;
    
@@ -103,19 +103,17 @@ img{
     flex-direction: column;
     align-items: center;
     border-radius: 12px;
-    -webkit-box-shadow: 2px 4px 32px 12px rgba(215, 34, 115, 1);
-    -moz-box-shadow: 2px 4px 32px 12px rgba(215, 34, 115, 1);
     box-shadow: 2px 4px 32px 12px rgba(215, 34, 115, 1);
 }
 .like__button{
-    background-image: url(/assets/icons8-сердце-50.png);
+    background-image: url("/assets/icons8-сердце-50.png");
     width: 50px;
     height: 50px;
     transition: all 0.4s    ease-in-out;
     border: none;
 }
 .like__button__active{
-    background-image: url(/assets/icons8-сердце-50\ \(1\).png);
+    background-image: url("/assets/icons8-сердце-50\ \(1\).png");
     width: 50px;
     height: 50px;
     border: none;
@@ -126,7 +124,6 @@ img{
     font-family: "space_regular";
     text-decoration: none;
     cursor: pointer;
-    backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid #ffffff;
     width: 250px;
@@ -143,7 +140,6 @@ img{
     font-family: "space_regular";
     text-decoration: none;
     cursor: pointer;
-    backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid #ffffff;
     width: 250px;
